@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Konversi Suhu</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="welcome">Selamat Datang di Website Konversi Suhu</h1>
+    </header>
+    <div class="container">
+        <div class="inputGrup">
+            <input type="number" class="inputGrup" id="inputSuhu1" placeholder="Masukkan angka..">
+            <p>=</p>
+            <input type="number" class="inputGrup" id="inputSuhu2" placeholder="Masukkan angka..">
+        </div>
+        <div class="konversi">
+            <select name="suhuAwa;" id="suhuAwal" class="optionKonversi">
+                <option value="celcius">Celcius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+                <option value="reamur">Reamur</option>
+            </select>
+            <select name="suhuTujuan" id="suhuTujuan" class="optionKonversi">
+                <option value="celcius">Celcius</option>
+                <option value="fahrenheit">Fahrenheit</option>
+                <option value="kelvin">Kelvin</option>
+                <option value="reamur">Reamur</option>
+            </select>
+        </div>
+        <div class="button">
+            <!-- <button class="box" id="convertButton">Konversi</button> -->
+            <button class="box" onclick="resetValue()">Reset</button>
+            <button class="box" onclick="reverseSelectOption()">Reverse</button>
+        </div>
+        <textarea name="formula" id="formula" cols="60" rows="3" readonly placeholder="Formula"></textarea>
+        <div class="caraHitung" id="caraHitung">
+            <p>Cara Konversi Suhu</p>
+            <textarea name="penjelasan" id="penjelasan" cols="60" rows="3" readonly placeholder="Penjelasan Rumus"></textarea>
+        </div>
+    </div>
+    
+    <!-- <div class="inputGrup2"></div>
+    <div class="konversi">
+        
+    </div> -->
+    <!-- <div class="hasilKonversix" id="hasilKonversix">
+
+    </div> -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

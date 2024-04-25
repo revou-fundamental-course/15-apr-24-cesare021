@@ -1,0 +1,105 @@
+
+body {
+transition: background-color 10s ease; /* Animasi transisi */
+background: radial-gradient(circle, #324070, #05004b);
+background-color: #e0393960; /*Warna latar belakang default */
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgba(240, 248, 248, 0.795);
+    margin-bottom: 40px;
+    margin-top: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.inputGrup {
+    display: flex;
+}
+
+.inputGrup p {
+    padding-top: 10px;
+}
+
+.inputGrup input {
+    display: absolute;
+    width: 400px;
+    height: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+    font-size: 28px;
+}
+
+.konversi {
+    display: relative;
+}
+
+.konversi .optionKonversi{
+    display: absolute;
+    width: 180px;
+    height: 30px;
+    font-size: 26px;
+    font-family: sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.inputGrup p {
+    color: azure;
+    font-size: 30px;
+}
+
+.button{
+    display: absolute;
+}
+
+.button .box {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    margin-top: 20px;
+    
+}
+
+.hasilKonversi {
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: azure;
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.caraHitung p{
+    font-size: 36px;
+    color: azure;
+    margin: 20px;
+    text-align: center;
+}
+
+#formula {
+    margin: 10px;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#penjelasan {
+    margin: 10px;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 50px;
+}
